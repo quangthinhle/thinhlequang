@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fullstack LTCS BT Buổi 1 - HTML</title>
+</head>
+<body>
+  <form action="">
+    <div>
+      <label for="name">Họ tên: </label>
+      <input type="text" id="name">
+    </div>
+    <div>
+      <label for="address">Địa chỉ: </label>
+      <input type="text" id="address">
+    </div>
+    <div>
+      <label for="phone">SĐT: </label>
+      <input type="text" id="phone">
+    </div>
+    <div>
+      Giới tính: 
+      <input type="radio" name="gender" checked> Nam
+      <input type="radio" name="gender"> Nữ
+    </div>
+    <div>
+      <label for="area">Vùng miền: </label>
+      <select id="area">
+        <option value="NH">Hà Nội</option>
+        <option value="DN">Đà Nẵng</option>
+        <option value="HCM">Hồ Chí Minh</option>
+      </select>
+    </div>
+    <div>
+      <input type="checkbox" id="term">
+      <label for="term">Đồng ý với điều khoản sử dụng</label>
+    </div>
+    <button type="submit">ĐẶT HÀNG</button>
+  </form>
+</body>
+</html>
